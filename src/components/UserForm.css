@@ -43,8 +43,23 @@
 	}
 }
 
+.primaryBTN h4{
+	display: inline;
+	 color: white;
+	 font-weight: 400
+}
+.primaryBTN:disabled,.primaryBTN[disabled] h4{
+	color: #d5d5d5;
+}
+
 @media (max-width: 320px) {
 	.main-content-inner-container {
 		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.main-content-inner-container {
+		min-height: 145vh !important;
 	}
 }
